@@ -9,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
     "knock-knock-jokes": "^1.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicias455/project4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alicias455/project4/issues"
+  },
+  "homepage": "https://github.com/alicias455/project4#readme"
 }

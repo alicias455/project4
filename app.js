@@ -20,6 +20,11 @@ app.get("/resident", function(req, res){
     res.render("resident.html");
 });
 
-app.listen("5698", "0.0.0.0", function () {
-    console.log("Express Server is Running...")
-});
+// app.listen("5698", "0.0.0.0", function () {
+//     console.log("Express Server is Running...")
+// });
+
+//heroku
+app.listen(process.env.PORT, process.env.IP, function () {
+    console.log("Running Express Server...")
+})
